@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Control the robot</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+<style>
+    .button {
+        background-color: #e7e7e7;
+        border: 2px solid black;
+        color: black;
+        padding: 16px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 13px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 10px;
+        margin: 15em auto 10em;
+        left: 35%;
+        margin-right: 1.5%;
+        position: relative;
+    }
+
+    .button1 {
+
+
+        position: absolute;
+        margin: 9% 6%;
+    }
+
+    .button2 {
+        top: 25%;
+        position: absolute;
+        margin: 6%;
+    }
+</style>
+
+<body>
+
+
+    <form action="PhpToMySql.php?" method="get">
+        <button class="button button1" type="submit" value="Forward" name="Forward">Forward</button>
+        <button class=" button button" type="submit" value="Left" name="Left">Left</button>
+        <button class=" button button" type="submit" value="Stop" name="Stop">Stop</button>
+        <button class=" button button" type="submit" value="Right" name="Right">Right</button>
+        <button class="button button2" type="submit" value="Backward" name="Backward">Backward</button>
+
+    </form>
+
+
+</body>
+
+</html>
